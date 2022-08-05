@@ -1,0 +1,436 @@
+.left
+{
+    float : left;
+}
+.right
+{
+    float:right;
+}
+.formtotal
+{
+    margin-left:10% ;
+    margin-right: 10%;
+}
+.top
+{
+    margin-top: -12px;
+    border: 1px solid rgb(247,247,247);
+    background-color: rgb(247,247,247);
+    height: 40px;
+    margin-left: -150px; 
+    margin-right: -150px;
+}
+.thanh_logo
+{
+    margin-top: 40px;
+    background-color: white;
+    margin-top: -15px;
+}
+.codinh
+{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.login
+{
+    width: 150px;
+    height:40px;;
+    border: 1px solid rgb(225,225,225);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login:hover
+{
+    color: white;
+    background-color: rgb(245,189,16);
+}
+.top a
+{
+    text-decoration: none;
+    color: rgb(54,54,54);
+}
+.logo
+{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid rgb(225,225,225);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo:hover
+{
+    color: white;
+    background-color: rgb(245,189,16);
+}
+
+.textt
+{
+    margin-left: 150px;
+}
+.texttcolor
+{
+    color:rgb(246,199,74);
+    font-weight:bold;
+    font-size:140%;
+}
+.textcolor
+{
+    color:rgb(147,147,147);
+    font-size:100%;
+}
+.search
+{
+    border:1px solid rgb(225,225,225);
+    width:70%;
+    height: 30px;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-left: 80px;
+    float: left;
+}
+.center_align
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button .buttonsearch
+{
+    width: 20px;
+    width: 20px;
+    background-color: none;
+}
+button .buttonsearch:hover
+{
+    background-color: aliceblue;
+}
+.buttonsearch
+{
+    border: none;
+    margin-left: -20px;
+    float: right;
+    background: none;
+    text-align: center;
+}
+.menu
+{
+    margin-top:0px;
+    border: 1px solid rgb(32,32,32);
+    background-color: rgb(32,32,32);
+    height: 50px;
+    margin-left:-150px; 
+    margin-right: -150px;
+}
+
+.menu a
+{
+    text-decoration: none;
+    color:white ;
+}
+.page
+{
+  
+    font-size: 10px;
+    border:1px solid rgb(225,225,225);
+    padding: 20px;
+    height: 10px;
+    font-weight: bold;
+    list-style-type: none;
+}
+.img_khoan
+{
+    width:700px; 
+    height:500px;
+}
+.page:hover
+{
+    background-color: rgb(245,189,16);
+}
+.infor
+{
+    border: 1px solid rgb(207, 205, 205);
+    width: 460px;
+    height: 123px;
+    color: rgb(54,54,54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infor:hover
+{
+    background-color: rgb(245,189,16);
+    color:white;
+}
+.img
+{
+    width:15%;
+}
+.infor img:hover
+{
+    background-color: white;
+}
+.danhmuc
+{
+    border: 1px solid rgb(225,225,225);
+    width: 250px;
+    height: 69px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.danhmuc li 
+{
+    list-style-type: none;
+    color: black;
+}
+a .danhmuc
+{
+    text-decoration: none;
+}
+.danhmuc:hover
+{
+    background-color: rgb(32,32,32);
+    color: rgb(245,189,16);
+}
+.item
+{
+    position: absolute;
+    margin-left: -2.7cm;
+}
+.sanpham
+{
+    width: 294px;
+    height: 350px;
+    border: 1px solid rgb(207, 205, 205);
+    margin-top: -15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+.sanpham:hover
+{
+    border: 1px solid rgb(0, 0, 0);
+}
+.price
+{
+    color:red;
+    font-weight: bold;
+}
+.name_item
+{
+    font-weight: bold;
+}
+.danhgia
+{
+    color:rgb(147,147,147);
+    font-size: 15px;
+}
+.button_buy_now
+{
+    border: 1px solid rgb(245,189,16);
+    background-color: rgb(245,189,16);
+    color:white;
+    font-size: 15px;
+    padding:10px;
+    margin:5px;
+    display: none;
+}
+.button_buy_now:hover
+{
+    background-color: rgb(246,199,74);
+}
+.button_view_detail
+{
+    border: 1px solid rgb(32,32,32);
+    background-color: rgb(32,32,32);
+    color:white;
+    font-size: 15px;
+    padding:10px;
+    margin:5px;
+    display: none;
+}
+.button_view_detail:hover
+{
+    background-color: rgb(54,54,54);
+}
+.may
+{
+    border: 1px solid rgb(147,147,147);
+    color:rgb(147,147,147);
+    padding:5px;
+    margin-right: 10px;
+}
+.may.active
+{
+    background-color: rgb(245,189,16);
+    color:rgb(247,247,247);
+}
+.may:hover:not(.active)
+{
+    background-color: #ddd;
+}
+.sanphammoi
+{
+    width: 334px;
+    height: 470px;
+    border: 1px solid rgb(207, 205, 205);
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    padding:20px;
+}
+.sanphammoi:hover
+{
+    border: 1px solid rgb(0, 255, 8);
+}
+.picture_banchay
+{
+    width: 270px;
+}
+.sanphambanchay
+{
+    width: 265px;
+    height: 430px;
+    border: 1px solid rgb(207, 205, 205);
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    padding:20px;
+}
+.rocket
+{
+    margin-top: 20px;
+    background-color: rgb(242,242,242);
+    border: 1px solid rgb(242,242,242);
+    height: 200px;
+    width: 30cm;
+    display: inline-block;
+    text-align: center;
+}
+.button_detail
+{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color:rgb(32,32,32);
+    font-size: 15px;
+    padding:10px;
+    margin:5px;
+    display: none;
+}
+.button_detail:hover
+{
+    background-color: rgb(249, 249, 249);
+}
+.buy_now
+{
+    border: 1px solid rgb(245,189,16);
+    background-color: rgb(245,189,16);
+    color:white;
+    font-size: 15px;
+    padding:10px;
+    margin:5px;
+}
+.buy_now:hover
+{
+    background-color: rgb(246,199,74);
+}
+.view_detail
+{
+    border: 1px solid rgb(32,32,32);
+    background-color: rgb(32,32,32);
+    color:white;
+    font-size: 15px;
+    padding:10px;
+    margin:5px;
+}
+.view_detail:hover
+{
+    background-color: rgb(54,54,54);
+}
+.hangmoive
+{
+    border: 1px solid rgb(225,225,225);
+    height: 185px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.picture_taitro
+{
+    width: 100%;
+    
+    padding: 1cm;
+}
+.small_big
+{
+    border: 1px solid rgb(255,255,255);
+    background-color: rgb(255,255,255);
+}
+.small_big:hover
+{
+    background-color: rgb(242,242,242);
+}
+.newsletter
+{
+    margin-top: 1cm;
+    background-image: url("Ảnh/newsletter/background.png");
+    height: 150px;
+    margin-left: -12.5%;
+    margin-right: -12.5%;
+}
+.email
+{
+    padding-left:15px ;
+    border:1px solid rgb(225, 225, 225); 
+    border-radius: 50px;
+    width: 10cm;
+    height: 0.8cm;
+}
+.button_email
+{
+    background-color: rgb(245,189,16);
+    margin-left:0.6cm;
+    border: none;
+    border-radius: 50px;
+    width: 2cm;
+    height: 0.8cm;
+    color: white;
+    font-weight: bold;
+}
+.button_email:hover
+{
+    background-color: rgb(246,199,74);
+}
+.flex-column
+{
+    flex-direction: column;
+    margin-left: 1cm;
+    width: 5cm;
+}
+.ghichu
+{
+    flex-wrap:wrap;
+    margin-top:10px;
+    color: rgb(147,147,147);
+    width: 6cm;
+    font-size: 0.35cm;
+}
+.pay
+{
+    width: 37%;
+}
+.bottom
+{
+    margin-left: 20px;
+    font-size: 12px;
+    color:rgb(213, 213, 213);
+}
