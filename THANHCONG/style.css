@@ -118,7 +118,7 @@
     justify-content: space-between;
     border: 1px solid rgb(32,32,32);
     background-color: rgb(32,32,32);
-    height: 60px;
+    height: 40px;
     padding-left: 10%;
     padding-right: 10%;
     margin-top:0px ;
@@ -128,8 +128,8 @@
 {
     border: 1px solid rgb(137,137,137);
     font-family: 'roboto';
-    font-size: 14px;
-    padding: 20px;
+    font-size: 8px;
+    padding: 10px;
     color: white;
     text-decoration: none;
     display: flex;
@@ -139,9 +139,20 @@
     height: 100%;
     text-align: center;
 }
+button.item
+{
+    background-color: rgb(32,32,32);
+}
 .item:hover
 {
     background-color: rgb(245,189,16);
+}
+.item:active
+{
+    background-color: rgb(210, 161, 13);
+}
+.iframe_gio
+{
 }
 /* =================================================================*/
 .tieude
@@ -162,17 +173,18 @@
 .sldier
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .sldier_picture
 {
-    width: 60%;
+    width: 100%;
 }
 .sldier_form_infor
 {
-    width: 40%;
+    width: 90%;
     display: flex;
     flex-direction: column;
+    margin-left: 5%;
 }
 .sldier_infor
 {
@@ -226,19 +238,19 @@
 {
     font-weight: bold;
     font-family: 'roboto';
-    font-size: 18px;
+    font-size: 14px;
     color: rgb(50,50,50);
 }
 .icon_list
 {
     color:rgb(246,199,74);
-    margin-right :10px;
+    margin-right :6px;
 }
 .button_chuyen
 {
     background-color: white;
     border: 1px solid black;
-    font-size:20px;
+    font: size 16px;
 }
 .button_chuyen:hover
 {
@@ -288,8 +300,8 @@
 }
 .sp_noi_bac
 {
-    width: 200px;
-    height: 350px;
+    width: 49.5%;
+    height: 33%;
     border: 1px solid rgb(207, 205, 205);
     display: flex;
     flex-direction: column;
@@ -307,7 +319,7 @@
 }
 .img_sp
 {
-    margin-bottom: 10px;
+    width: 80%;
 }
 .price
 {
@@ -337,8 +349,8 @@
     border: 1px solid rgb(245,189,16);
     background-color: rgb(245,189,16);
     color:white;
-    font-size: 15px;
-    padding:10px;
+    font-size: 10px;
+    padding:5px;
     margin:5px;
     display: none;
 }
@@ -346,19 +358,27 @@
 {
     background-color: rgb(246,199,74);
 }
+.button_buy_now:active
+{
+    background-color: rgb(245,189,16);;
+}
 .button_view_detail
 {
     border: 1px solid rgb(32,32,32);
     background-color: rgb(32,32,32);
     color:white;
-    font-size: 15px;
-    padding:10px;
+    font-size: 10px;
+    padding:5px;
     margin:5px;
     display: none;
 }
 .button_view_detail:hover
 {
     background-color: rgb(54,54,54);
+}
+.button_view_detail:active
+{
+    background-color: rgb(32,32,32);
 }
 /* =================================================================*/
 .right_top_sp_moi
@@ -379,6 +399,8 @@
     color:rgb(147,147,147);
     padding:5px;
     margin-right: 10px;
+    font-family: 'robotoo';
+    font-size:10px
 }
 .may.active
 {
@@ -402,7 +424,8 @@
 }
 .sp_moi
 {
-    height: 460px;
+    width: 33.33%;
+    height: 300px;
     border: 1px solid rgb(207, 205, 205);
     display: flex;
     flex-direction: column;
@@ -415,26 +438,27 @@
 .img_sp_moi
 {
     margin-top: 20px;
+    width: 49%;
 }
 /* =================================================================*/
 .list_sp_ban_chay
 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     gap: 10px;
 }
 .sp_ban_chay
 {
     border: 1px solid rgb(207, 205, 205);
     display: flex;
-    height: 420px;
+    height: 300px;
     flex-direction: column;
     align-items: center;
 }
 .img_sp_ban_chay
 {
-    width: 270px;
-    height: 270px;
+    width: 50%;
+    height: 50%;
 }
 .sp_ban_chay_center
 {
@@ -443,6 +467,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 /* =================================================================*/
 .banner-3
@@ -455,6 +480,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding-right: 5%;
 }
 .content
 {
@@ -466,8 +492,12 @@
 .head-banner-3
 {
     font-family: 'roboto';
-    font-size: 40px;
+    font-size: 15px;
     font-weight: bold;
+}
+.img-banner-3
+{
+    width: 70%;
 }
 .detail-banner-3
 {
@@ -480,8 +510,8 @@
     border: 1px solid rgb(35, 34, 34);
     background-color: rgb(255, 255, 255);
     color:rgb(32,32,32);
-    font-size: 15px;
-    padding:10px;
+    font-size: 8px;
+    padding:5px;
     margin:5px;
 }
 .button-detail-banner-3:hover
@@ -493,8 +523,8 @@
     border: 1px solid rgb(245,189,16);
     background-color: rgb(245,189,16);
     color:white;
-    font-size: 15px;
-    padding:10px;
+    font-size: 10px;
+    padding:5px;
     margin:5px;
 }
 .button-buynow-banner-3:hover
@@ -561,6 +591,7 @@
 }
 .picture_taitro
 {
+    width: 80%;
 }
 .button_brand
 {
@@ -605,10 +636,11 @@
 {
     display: flex;
     flex-direction: row;
+    width: 45%;
 }
 .textbox_newsletter
 {
-    width: 600px;
+    width: 100%;
     height: 40px;
     background-color: white;
     padding-left: 15px;
@@ -652,7 +684,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 5px;
 }
 .vechungtoi
 {
@@ -661,18 +693,27 @@
 .heading_footer
 {
     font-family: 'roboto';
-    font-size: 16px;
+    font-size: 10px;
     font-weight: bold;
 }
 .detail_footer
 {
     font-family: 'arial';
-    font-size:13px;
+    font-size:10px;
     color:rgb(165, 150, 150)
 }
 .icon_detail
 {
     color: black;
+}
+.bottom_footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+    padding-bottom:50px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 hr
 {
@@ -681,15 +722,13 @@ hr
 }
 .thanhtoan
 {
-    margin-left: 10%;
+    width: 100%;
 }
-.bottom_footer
+.img_pay
 {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between ;
-    padding-bottom:50px
+    width: 100%;
 }
+
 .bank
 {
     display: grid;
@@ -698,7 +737,8 @@ hr
 }
 .lienhe
 {
-    margin-right: 10%;
+    width: 100%;
+    margin-top: 3%;
 }
 .contact
 {
@@ -719,6 +759,7 @@ hr
     flex-direction: row;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .numberphone
 {
@@ -734,6 +775,7 @@ hr
     background-color: rgb(37,37,37);
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 500px;
 }
 .bottom >ul
 {
@@ -748,12 +790,12 @@ a.text_bottom
     align-items: center;
     float: left;
     margin-left:0px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .text_bottom
 {
     font-family: 'arial';
-    font-size:13px;
+    font-size:9px;
     color : rgb(172, 172, 172);
     margin-left :10%;
 }
@@ -781,9 +823,8 @@ a.text_bottom
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
-    
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 780px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -807,30 +848,48 @@ a.text_bottom
         border: 1px solid rgb(137,137,137);
         border-radius: 50px;
     }
+    .menu
+    {
+        height: 60px;
+    }
     .item
     {
-        font-size:10px ;
+        font-size: 14px;
+        padding :20px;
     }
     .sldier
     {   
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
     .sldier_picture
     {
-        width: 100%;
+        width: 60%;
     }
     .sldier_form_infor
     {
-        width: 90%;
+        width: 40%;
+        margin-left: 0;
+    }
+    .sldier_infor
+    {
+        padding: 6%;
+    }
+    .txt_sp
+    {
+        font-size: 18px;
+    }
+    .icon_list
+    {
+        margin-right :10px;
     }
     .list_danhmuc
     {
         width: 20%;
     }
-    .danhmuc
+    .button_chuyen
     {
-        height: 9.09%;
+        font-size:20px;
     }
     .list_sp_noibac
     {
@@ -838,6 +897,101 @@ a.text_bottom
     }
     .sp_noi_bac
     {
-        width: 40%;
+        width: 33%;
+        height: 49.5%;
+    }
+    .button_buy_now
+    {
+       font-size: 15px;
+       padding:10px;
+       margin:5px;
+    }
+    .button_view_detail
+    {
+        font-size: 15px;
+        padding:10px;
+        margin:5px;
+    }
+    .may
+    {
+        font-size:14px;
+    }
+    .sp_moi
+    {
+    width: 33.33%;
+    height: 460px;
+    }
+    .list_sp_ban_chay
+    {
+    grid-template-columns: auto auto auto;
+    }
+    .sp_ban_chay
+    {
+        height: 300px;
+        width: 390px;
+    }
+    .sp_ban_chay_center
+    {
+        width: 390px;
+    }
+    .head-banner-3
+    {
+        font-size: 40px;
+    }
+    .img-banner-3
+    {
+        
+        height: 100%;
+    }
+    .button-detail-banner-3
+    {
+        font-size: 15px;
+        padding:10px;
+    }
+    .button-buynow-banner-3
+    {
+        font-size: 15px;
+        padding:10px;
+    }
+    .picture_taitro
+    {
+    width: 100%;
+    }
+    .infor_footer
+    {
+        margin: 10px;
+    }
+    .heading_footer
+    {
+        font-size: 16px;
+    }
+    .detail_footer
+    {
+        font-size:13px;
+    }
+    .bottom_footer
+    {
+        flex-direction: row;
+    }
+    .lienhe
+    {
+        margin-top: 0;
+        padding-left:50px;
+    }
+    .numberphone
+    {
+        font-size :18px;
+    }
+    a.text_bottom
+    {
+        margin-right: 20px;
+    }
+    .text_bottom
+    {
+        font-size:13px;
+    }
+    .bottom
+    {
+        margin-bottom: 0;
     }
   }
