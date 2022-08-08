@@ -26,3 +26,14 @@ function hide_text()
 {
     document.getElementById("search").style.display="none";
 }
+let i=0;
+function on_gio()
+{
+    i+=1;
+    if (i%2==1)
+    {
+    document.getElementById("gio").style.display="block";
+    }
+    else
+    document.getElementById("gio").style.display="none";
+}
